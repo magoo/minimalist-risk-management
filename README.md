@@ -27,7 +27,7 @@ Eventually aim to make this cycle of discovery, sorting, and mitigation more con
 This method is simple mainly for it's lack of measurement, which becomes the biggest problem.
 
 - It's impossible to know if you've discovered enough risks. What is enough?
-- While our intuition roughly sort our risks, how much distance exists in between each line item?
-- Does our risk discovery process inform an investment into mitigation? How much money should we spend?
-- Is our risk mitigation outpacing our increase in risks? Are we losing a race?
-- What if we don't have talent or expertise to target the biggest risks?
+- While our intuition roughly sorts our risks, should we focus more on some, than others?
+- Does our risk discovery process inform an investment into mitigation? Does it estimate budget?
+- Is our risk mitigation outpacing our increase in risks? Are we losing the race with every cycle?
+- What if we don't have the talent to fully understand a very specialized risk?
