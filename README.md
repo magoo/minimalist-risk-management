@@ -1,8 +1,6 @@
 # A minimalist risk management program.
 The smallest documented risk management program using only raw materials, by [@magoo](https://www.twitter.com/magoo).
 
-This is not a copy/paste process. This should inform how risk management is built from scratch. [Reference for meetings here](MEETINGS.md). 
-
 ## :black_nib: Organize, scope, and schedule your efforts.
 Involve your leadership and sponsors. Discuss scope of risks you want to be concerned about (Physical? Financial? Technical? Natural?). Discuss budget, partner collaboration, and urgency. Discuss preferences for any methods that will discover risk. Identify decision makers and stakeholders for actions on findings.
 
@@ -38,3 +36,6 @@ This method is simple mainly for it's lack of measurement, which becomes the big
 - Does our risk discovery process inform an investment into mitigation? Does it estimate budget?
 - Is our risk mitigation outpacing our increase in risks? Are we losing the race with every cycle?
 - What if we don't have the talent to fully understand a very specialized risk?
+
+---
+This is not a copy/paste process. This simply informs how risk management is built from fundamentals. [Reference for meetings here](MEETINGS.md). 
