@@ -1,25 +1,30 @@
 # A minimalist risk management program.
 The smallest documented risk management program using only raw materials, by [@magoo](https://www.twitter.com/magoo).
 
-## :mag: Kick off an effort to discover risks.
-Decide on the methods you want to employ to discover risk, and what scope of risks you're interested in. Limit your costs and effort to something reasonable, because an over-investment in risk discovery can harm our available resource to mitigate whatever we find.
+## :black_nib: Organize, scope, and schedule your efforts.
+Involve your leadership and sponsors. Discuss scope of risks you want to be concerned about (Physical? Financial? Technical? Natural?). Discuss budget, partner collaboration, and urgency. Discuss preferences of methods that will discover of risk. Identify decision makers and stakeholders for actions on future reports.
 
-> The output of this effort should be an unsorted list of well crafted "scenarios".
+> The output of this effort should be a sense of confidence going into risk discovery efforts and collaboration with other teams.
+
+## :mag: Kick off an effort to discover risks.
+Begin planning and executing efforts to [discover risk](https://medium.com/@magoo/starting-up-security-from-scratch-6f9a41199a65). These can be interviews with internal subject matter experts. These can be brainstorming workshops with employee groups. External auditors or tool produced reports can also contribute to risk discovery. Limit your costs and efforts to a reasonable value that allows resource to mitigate future findings.
+
+> The output of this effort should be an unsorted list of well crafted "scenarios" that are translated from these various efforts.
 
 ## :clipboard: Sort these scenarios based on their risk.
-Once your known scenarios are documented, sort them based on risks. Higher likelihood, higher impact risks at the top, and low likelihood, low impact risks at the bottom. A sort based on intuition is fine. You can improve this with multiple participants using a [cumulative point system vote](https://en.wikipedia.org/wiki/Cumulative_voting) to reduce bias and increase consensus.
+Once your known scenarios are documented, we sort them based on risks. Higher likelihood, higher impact risks at the top, and low likelihood, low impact risks at the bottom. A sort based on leadership intuition is common, but you can improve this with multiple participants using a [cumulative point system vote](https://en.wikipedia.org/wiki/Cumulative_voting) to reduce bias and increase consensus.
 
-> The output of this effort should be an ordered set of scenarios, high to low.
+> The output of this effort should be an "concern" ordered set of scenarios, high to low.
 
 ## :ballot_box_with_check: Choose OKR's that represent mitigations for these risks and pursue them.
-Once your risks are prioritized, develop [OKR's](https://en.wikipedia.org/wiki/OKR) for the next cycle of mitigation. These should have the greatest intuitive impact on the most high priority risks as possible. A single, well crafted OKR should mitigate multiple risks at once. Choose OKRs that have a [positive influences](https://medium.com/starting-up-security/the-five-factors-used-to-secure-systems-7f58be0f447f) across many risks. Stop focusing on risk management until the cycle of work is complete.
+Once your risks are prioritized, develop [OKR's](https://en.wikipedia.org/wiki/OKR) for the next cycle of mitigation. These should have the greatest intuitive impact on the most high priority risks as possible. A single, well crafted OKR should mitigate multiple risks at once. Choose OKRs that have a [positive influences](https://medium.com/starting-up-security/the-five-factors-used-to-secure-systems-7f58be0f447f) across many risks. Reduce focuse on risk management until the cycle of work is complete, unless resource is abundant.
 
 > The output of this effort should be a reduced set of risks.
 
 ## :recycle: Start over and do it again.
-Risk management is cyclical and iterative. You should always be discovering new risks. You don't have to spend effort re-discovering old ones.
+Risk management is cyclical and iterative, otherwise it's a point in time assessment. Always discover new risks. You don't have to spend effort re-discovering old ones.
 
-Depending on your mitigation efforts, your sorting should change again, as should your OKR's. Invest in risk management in a proportion that scales with the success and growth of whatever you are protecting.
+The "sorted" risks should be in flux, as should your OKR's. Invest in risk management in a consistent or increasing ratio that scales with the success and growth of whatever you are protecting.
 
 Eventually aim to make this cycle of discovery, sorting, and mitigation more continuous, with ever increasing efficiency of your discovery and mitigation methods.
 
