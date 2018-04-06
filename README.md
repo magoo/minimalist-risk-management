@@ -9,7 +9,7 @@ Involve your leadership and sponsors. Discuss scope of risks you want to be conc
 ## :mag: Kick off an effort to discover risks.
 Begin planning and executing efforts to [discover risk](https://medium.com/@magoo/starting-up-security-from-scratch-6f9a41199a65). These can be interviews with internal subject matter experts. These can be brainstorming workshops with employee groups. External auditors or tool produced reports can also contribute to risk discovery. Limit your costs and efforts to a reasonable value that allows resource to mitigate future findings.
 
-> The output of this effort should be an unsorted list of well crafted "scenarios" that are translated from these various efforts.
+> The output of this effort creates an unsorted list of "[scenarios](https://medium.com/starting-up-security/decomposing-security-risk-into-scenarios-7ecf0979be01)" that are translated from these various efforts.
 
 ## :clipboard: Sort these scenarios based on their risk.
 Once your known scenarios are documented, we sort them based on risks. Higher likelihood, higher impact risks at the top, and low likelihood, low impact risks at the bottom. A sort based on leadership intuition is common, but you can improve this with multiple participants using a [cumulative point system vote](https://en.wikipedia.org/wiki/Cumulative_voting) to reduce bias and increase credibility through consensus.
@@ -38,4 +38,4 @@ This method is simple mainly for it's lack of measurement, which becomes the big
 - What if we don't have the talent to fully understand a very specialized risk?
 
 ---
-This is not a copy/paste process. This simply informs how risk management is built from fundamentals. [Reference for meetings here](MEETINGS.md). 
+This is not a copy/paste process. This simply informs how risk management is built from fundamentals. [Reference for meetings here](MEETINGS.md).
