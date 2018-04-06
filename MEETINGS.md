@@ -16,7 +16,8 @@ The goal is to get everyone on the same page on many different subjects. Make "R
   - How should risk management be prioritized over other parts of the business?
   - What "check in" cadence makes sense?
 
-> A team should feel confident in discussing and planning risk activities in their next meeting that fall within expectations of leadership and sponsors.
+> A team should feel confident in discussing and planning risk activities in their next meeting.
+> They should not feel as if they are catching other teams off guard.
 
 ## :calendar: 2. Organize a variety of risk discovery activities over time.
 *Participants*: Coordinators and "Tribal Leaders" in a workplace.
