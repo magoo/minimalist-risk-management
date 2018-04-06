@@ -36,6 +36,7 @@ Our goal is to schedule efforts that will ultimately discover risks and register
 
 ## :bomb: 3. A. Sort our scenarios based on risk B. Propose or decide on mitigations.
 *Participants*: Coordinators and stakeholders who are familiar with what risks we can, or cannot tolerate. Especially those who have sense of likelihood for risks.
+
 Our goal is to obtain a prioritized set of risks and mitigations, with as much consensus and credibility as we can muster. We want these to begin flight as mitigations so we can start having impact on these risks.
 
 - Have the group or individual sort scenarios based on risks.
@@ -50,6 +51,7 @@ Our goal is to obtain a prioritized set of risks and mitigations, with as much c
 
 ## :question: 4. Retrospective and Restart
 *Participants*: Anyone who participated with informed opinion on the process.
+
 Ask tough questions that question the overall process and reduce cognitive error when possible.
 
 - Did we have any incidents that should change our perception of risk?
