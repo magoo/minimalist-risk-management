@@ -1,5 +1,5 @@
 #  Risk Management Meetings :sleeping:
-The following are agendas for risk management meetings. Or, the topics to discuss in asynchronous communication.
+The following are agendas for risk management meetings following the methodology written [here](README.md). Or, the topics to discuss in asynchronous communication.
 
 ## :rocket: 1. Kick off and design the program with leadership
 *Participants*: Whoever asked for Risk Management to exist. Alternatively, whoever will sponsor the influence the program may have on the business.

@@ -1,13 +1,13 @@
 # A minimalist risk management program.
-The smallest documented risk management program using only raw materials, by [@magoo](https://www.twitter.com/magoo).
+Minimalist documentation to describe a simple risk management program. [@magoo](https://www.twitter.com/magoo).
 
 ## :black_nib: Organize, scope, and schedule your efforts.
-Involve your leadership and sponsors. Discuss scope of risks you want to be concerned about (Physical? Financial? Technical? Natural?). Discuss budget, partner collaboration, and urgency. Discuss preferences for any methods that will discover risk. Identify decision makers and stakeholders for actions on findings.
+Involve your leadership and sponsors. Discuss scope of risks you want to be concerned about (Physical? Financial? Technical? Natural?). Discuss budget, partner collaboration, and urgency. Discuss preferences for any methods to discover risk. Identify decision makers and stakeholders for actions on findings. Start planning follow up [meetings or check in points](MEETINGS.md).
 
 > The output of this effort should allow collaboration with other teams to start with confidence.
 
 ## :mag: Kick off an effort to discover risks.
-Begin planning and executing efforts to [discover risk](https://medium.com/@magoo/starting-up-security-from-scratch-6f9a41199a65). These can be interviews with internal subject matter experts. These can be brainstorming workshops with employee groups. External auditors or tool produced reports can also contribute to risk discovery. Limit your costs and efforts to a reasonable value that allows resource to mitigate future findings.
+Begin planning and executing efforts to [discover risk](https://medium.com/@magoo/starting-up-security-from-scratch-6f9a41199a65). These can be interviews with internal subject matter experts. These can be brainstorming workshops with employee groups. External auditors or tool produced reports can also contribute to risk discovery. Limit your costs and efforts to a reasonable value that allows resource to mitigate future findings. Avoid bias from a single individual's perception of risk.
 
 > The output of this effort creates an unsorted list of "[scenarios](https://medium.com/starting-up-security/decomposing-security-risk-into-scenarios-7ecf0979be01)" that are translated from these various efforts.
 
@@ -38,4 +38,4 @@ This method is simple mainly for it's lack of measurement, which becomes the big
 - What if we don't have the talent to fully understand a very specialized risk?
 
 ---
-This is not a copy/paste process. This simply informs how risk management is built from fundamentals. [Reference for meetings here](MEETINGS.md).
+This is not a copy/paste document. Build more personalized documentation for your own risk management program.
