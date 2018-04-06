@@ -21,6 +21,7 @@ The goal is to get everyone on the same page on many different subjects. Make "R
 
 ## :calendar: 2. Organize a variety of risk discovery activities over time.
 *Participants*: Coordinators and "Tribal Leaders" in a workplace.
+
 Our goal is to schedule efforts that will ultimately discover risks and register them for us to sort through later. This requires some internal knowledge of the workplace and where uncertainty around risk may be, and which employees or systems should be worked with. We need to decide of efforts that are cost effective and thought to be impactful on our goals to understand and prioritize risk.
 
 - What subject matter expert interviews need to take place?
