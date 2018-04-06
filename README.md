@@ -1,6 +1,8 @@
 # A minimalist risk management program.
 The smallest documented risk management program using only raw materials, by [@magoo](https://www.twitter.com/magoo).
 
+This is not a copy/paste process. This should inform how risk management is built from scratch. [Reference for meetings here](MEETINGS.md). 
+
 ## :black_nib: Organize, scope, and schedule your efforts.
 Involve your leadership and sponsors. Discuss scope of risks you want to be concerned about (Physical? Financial? Technical? Natural?). Discuss budget, partner collaboration, and urgency. Discuss preferences for any methods that will discover risk. Identify decision makers and stakeholders for actions on findings.
 
