@@ -2,9 +2,9 @@
 The smallest documented risk management program using only raw materials, by [@magoo](https://www.twitter.com/magoo).
 
 ## :black_nib: Organize, scope, and schedule your efforts.
-Involve your leadership and sponsors. Discuss scope of risks you want to be concerned about (Physical? Financial? Technical? Natural?). Discuss budget, partner collaboration, and urgency. Discuss preferences of methods that will discover of risk. Identify decision makers and stakeholders for actions on future reports.
+Involve your leadership and sponsors. Discuss scope of risks you want to be concerned about (Physical? Financial? Technical? Natural?). Discuss budget, partner collaboration, and urgency. Discuss preferences for any methods that will discover risk. Identify decision makers and stakeholders for actions on findings.
 
-> The output of this effort should be a sense of confidence going into risk discovery efforts and collaboration with other teams.
+> The output of this effort should allow collaboration with other teams to start with confidence.
 
 ## :mag: Kick off an effort to discover risks.
 Begin planning and executing efforts to [discover risk](https://medium.com/@magoo/starting-up-security-from-scratch-6f9a41199a65). These can be interviews with internal subject matter experts. These can be brainstorming workshops with employee groups. External auditors or tool produced reports can also contribute to risk discovery. Limit your costs and efforts to a reasonable value that allows resource to mitigate future findings.
@@ -12,14 +12,14 @@ Begin planning and executing efforts to [discover risk](https://medium.com/@mago
 > The output of this effort should be an unsorted list of well crafted "scenarios" that are translated from these various efforts.
 
 ## :clipboard: Sort these scenarios based on their risk.
-Once your known scenarios are documented, we sort them based on risks. Higher likelihood, higher impact risks at the top, and low likelihood, low impact risks at the bottom. A sort based on leadership intuition is common, but you can improve this with multiple participants using a [cumulative point system vote](https://en.wikipedia.org/wiki/Cumulative_voting) to reduce bias and increase consensus.
+Once your known scenarios are documented, we sort them based on risks. Higher likelihood, higher impact risks at the top, and low likelihood, low impact risks at the bottom. A sort based on leadership intuition is common, but you can improve this with multiple participants using a [cumulative point system vote](https://en.wikipedia.org/wiki/Cumulative_voting) to reduce bias and increase credibility through consensus.
 
 > The output of this effort should be an "concern" ordered set of scenarios, high to low.
 
 ## :ballot_box_with_check: Choose OKR's that represent mitigations for these risks and pursue them.
-Once your risks are prioritized, develop [OKR's](https://en.wikipedia.org/wiki/OKR) for the next cycle of mitigation. These should have the greatest intuitive impact on the most high priority risks as possible. A single, well crafted OKR should mitigate multiple risks at once. Choose OKRs that have a [positive influences](https://medium.com/starting-up-security/the-five-factors-used-to-secure-systems-7f58be0f447f) across many risks. Reduce focuse on risk management until the cycle of work is complete, unless resource is abundant.
+Once your risks are prioritized, develop [OKR's](https://en.wikipedia.org/wiki/OKR) for the next cycle of mitigation. These should have the greatest intuitive impact on the most high priority risks as possible. A single, well crafted OKR should mitigate multiple risks at once. Choose OKRs that have a [positive influences](https://medium.com/starting-up-security/the-five-factors-used-to-secure-systems-7f58be0f447f) across many risks. Reduce focus on risk management until the cycle of work is complete, unless resource is abundant to operate concurrently.
 
-> The output of this effort should be a reduced set of risks.
+> The output of this effort should be a roadmap of actual impact against risks.
 
 ## :recycle: Start over and do it again.
 Risk management is cyclical and iterative, otherwise it's a point in time assessment. Always discover new risks. You don't have to spend effort re-discovering old ones.
