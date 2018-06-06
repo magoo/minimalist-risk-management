@@ -52,3 +52,5 @@ These are risks that can be decomposed from top level risks voiced by leadership
 
 ## 3. Tasks that influence business risk 👨‍💻👩‍💻 ☑️
 With target risks in mind, a team can pursue OKRs to influence the likelihood of information security risks taking place. This is well covered in [better OKR's](https://medium.com/@magoo/how-to-measure-risk-with-a-better-okr-c259bccf359e).
+
+Downstream scenarios can become highly specific. For instance: An engineer may target the "_an endpoint is compromised_" scenario by focusing on highly specific scenarios involving a certain attachment type, a vulnerable piece of software on the endpoint, or maybe a patch level. Others may contribute to the same scenario with other approaches, creating an engineering environment that values defense in depth. They may also approach the risk from [many different factors](https://medium.com/starting-up-security/the-five-factors-used-to-secure-systems-7f58be0f447f) depending on limitations. 
