@@ -5,7 +5,7 @@ The following are scenarios to support a simple approach to risk found [here](RE
 
 Risk scenarios are hierarchal. Business risks break down into more tangible information security risks, which break down into engineering tasks.
 
-Scenarios are variable based on how specific they are and the area they must address. Top level risks set by leadership are usually broad and non-specific scenarios, whereas scenarios managed by a CISO are scoped to technical scenarios, and individually contributing engineers are far more specific. Engineering efforts that focus on these scenarios will influence the probabilities of higher level scenarios occurring.
+Scenarios are variable based on how specific they are and the area they must address. Top level risks set by leadership are usually broad and non-specific scenarios, whereas scenarios managed by a CISO are scoped to technical scenarios, and scenarios approached by individually contributing engineers are far more specific. Engineering efforts that focus on these scenarios will influence the probabilities of higher level scenarios occurring.
 
 This is an example of [decomposing risk](https://medium.com/starting-up-security/decomposing-security-risk-into-scenarios-7ecf0979be01).
 
