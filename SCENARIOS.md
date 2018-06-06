@@ -16,6 +16,7 @@ Broad, strategic risks typically expressed by a board or C-Suite when asked by a
 - A trust issue has created a press event. (_Keep us out of the press_)
 - A trust issue has begun a regulatory / legal event. (_We don't want to get sued_)
 - A trust issue has created a loss in customer activity. (_We want to keep customers happy_)
+- A trust issue is exacerbated due to a poorly handled response. (_We should never be caught off guard_)
 - An executive is removed do to a mishandled trust issue. (_I want to keep my job_)
 
 > Leadership may call out far more specific risks, and that is OK. ("_A warehouse is offline_")
