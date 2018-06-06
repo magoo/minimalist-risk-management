@@ -9,7 +9,7 @@ Scenarios are variable based on how specific they are and the area they must add
 
 This is an example of [decomposing risk](https://medium.com/starting-up-security/decomposing-security-risk-into-scenarios-7ecf0979be01).
 
-## 1. Top level Business Risks 💼
+## 1. Top level Business Risks 💼📉💰
 Broad, strategic risks typically expressed by a board or C-Suite when asked by a security team.
 
 - A trust issue has threatened investors (_We don't want to hurt stock price_)
