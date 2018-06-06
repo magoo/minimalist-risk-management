@@ -17,6 +17,8 @@ Once your known scenarios are documented, we sort them based on risks. Higher li
 > The output of this effort should be an "concern" ordered set of scenarios, high to low.
 
 ## :ballot_box_with_check: Choose OKR's that represent mitigations for these risks and pursue them.
+> See "[better OKR's](https://medium.com/@magoo/how-to-measure-risk-with-a-better-okr-c259bccf359e)" for more information.
+
 Once your risks are prioritized, develop [OKR's](https://en.wikipedia.org/wiki/OKR) for the next cycle of mitigation. These should have the greatest intuitive impact on the most high priority risks as possible. A single, well crafted OKR should mitigate multiple risks at once. Choose OKRs that have a [positive influences](https://medium.com/starting-up-security/the-five-factors-used-to-secure-systems-7f58be0f447f) across many risks. Reduce focus on risk management until the cycle of work is complete, unless resource is abundant to operate concurrently.
 
 > The output of this effort should be a roadmap of actual impact against risks.
