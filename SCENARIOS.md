@@ -68,19 +68,25 @@ These are typical additions to help prioritize the most relevant scenarios. They
 Some scenarios are only important if they are capable of trigger an incident of a certain severity.
 
 > A *P0 incident* has involved...
+
 > A P0 incident has involved an employee who was not off-boarded correctly.
+
 > A P0 incident has resulted because an attacker bypassed rate limiting.
 
 Some bugs might not meet a specific "severity" classification but end up leveraged criminally anyways.
 
 > ...was exploited "*in the wild*"
+
 > An RCE discovered in our software was exploited "in the wild".
+
 > An exploit targeting the configuration of web server we host has been observed in the wild.
 
 The publicity involved with a scenario may be the goal of reduction efforts.
 
 > The *press has disclosed*...
+
 > An employee has leaked confidential data which the press has disclosed.
+
 > We have botched a vulnerability disclosure and the press has disclosed it before we could issue a fix.
 
 A time based scope is always included. Using consistent scopes or calendar based scopes improves everyone's ability to forecast comparable scenarios. "_Next Month_", "_Next Year_", "_Next Quarter_" are all typical.
