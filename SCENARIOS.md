@@ -3,14 +3,39 @@ The following are scenarios to support a simple approach to risk found [here](RE
 
 > These can be modified as much as needed to make sense for a specific organization.
 
-Risk scenarios are hierarchal. Business risks break down into more tangible information security risks, which break down into engineering tasks.
+Risk scenarios are hierarchal, like a [fault tree](https://en.wikipedia.org/wiki/Fault_tree_analysis). High level risks break down into more specific events that initiate them.
+
+```
+┌──────────────┐                              
+│Customer data │                              
+│  breached.   │                              
+└──────────────┘                              
+        │                                     
+        │                                     
+        ▼                                     
+┌──────────────┐                              
+│We exposed S3 │                              
+│    Bucket    │                              
+└──────────────┘                              
+        │                                     
+        ├─────────────────┬──────────────┐    
+        ▼                 ▼              ▼    
+┌──────────────┐  ┌───────────────┐  ┌───────┐
+│Policy changed│  │  Partner AWS  │  │   ?   │
+│  in console  │  │    breach     │  │       │
+└──────────────┘  └───────────────┘  └───────┘
+```
 
 Scenarios are variable based on how specific they are and the area they must address. Top level risks set by leadership are usually broad and non-specific scenarios, whereas scenarios managed by a CISO are scoped to technical scenarios, and scenarios approached by individually contributing engineers are far more specific. Engineering efforts that focus on these scenarios will influence the probabilities of higher level scenarios occurring.
 
+All builders and breakers in cybersecurity are manipulating the uncertainties involved with scenarios. They are either reducing the likelihood of a scenario occurring, better understanding the likelihood of them occurring, or understanding how an attacker views these likelihoods differently than yourself.
+
 This is an example of [decomposing risk](https://medium.com/starting-up-security/decomposing-security-risk-into-scenarios-7ecf0979be01).
 
-## 1. Top level Business Risks 💼📉💰
-Broad, strategic risks typically expressed by a board or C-Suite when asked by a security team.
+Shared scenarios have the opportunity for shared discussion. While these scenarios share a likelihood of being relevant to many organizations, they do not necessarily represent the most important risks your organization should be prioritizing. However, information shared regarding these scenarios could be invaluable in prioritizing your risks.
+
+## 1. Top level Risks 💼📉💰
+Broad, strategic risks typically expressed by a board or C-Suite when asked by a security team. These may not be measured often, but will set high level vision for a security organization.
 
 - A trust issue has threatened investors (_We don't want to hurt stock price_)
 - A trust issue has created a press event. (_Keep us out of the press_)
@@ -21,36 +46,107 @@ Broad, strategic risks typically expressed by a board or C-Suite when asked by a
 
 > Leadership may call out far more specific risks, and that is OK. ("_A warehouse is offline_")
 
-## 2. Scenarios that influence Business Risk 💻💽🔥🚒
-These are risks that can be decomposed from top level risks voiced by leadership. These would calibrate a whole team toward specific issues.
+## 2. Scenarios that influence these risks 💻💽🔥🚒
+Risks can be decomposed from top level risks voiced by leadership. These would calibrate a team toward specific issues. Here is an example:
 
-- A production infrastructure credential has been exposed publicly.
-- Confidential information has leaked and is accessible externally.
-  - An employee has leaked intentionally.
-  - An employee has accidentally leaked.
-  - Information was stolen.
-  - A system was misconfigured and exposed confidential information.
-- An insider has intentionally used their access for personal gain or to cause harm.
-- A customer's data has been improperly accessed.
-- An application weakness has resulted in an incident.
-  - Public security research has gone outside of a proper disclosure process.
-  - A security issue was exploited.
-  - An application behaved incorrectly and exposed data.
-- We poorly handle an incident.
-  - An incident occurred that has "log regret" (logs that needed to exist that did not)
-  - We have botched crisis communications and a situation is made worse.
-- A vendor of ours has had an incident.
-- Payment instruments are compromised en route from customer to us.
-- Weak authentication is involved with an incident.
-- An adversary is aware that they can operate within our network boundary.
-- An employee is physically threatened.
-- An unencrypted physical storage device is stolen.
-- A production cryptographic certificate or key is exposed (Encryption or Signing)
-- An unpredicted and uncategorized incident has occurred.
-- A competitor is involved with an incident.
-- An endpoint is compromised.
+- A trust issue has created a loss in customer activity.
+  - Our application was exploited and customer data was exposed.
+    - An IDOR was discovered by an adversary and exploited.
+    - An RCE was discovered by an adversary and exploited.
+    - Our application retrieved objects from the wrong customer's S3 bucket when exporting data.  
 
 ## 3. Tasks that influence business risk 👨‍💻👩‍💻 ☑️
 With target risks in mind, a team can pursue OKRs to influence the likelihood of information security scenarios occurring. This is well covered in [better OKR's](https://medium.com/@magoo/how-to-measure-risk-with-a-better-okr-c259bccf359e).
 
-Downstream scenarios can become highly specific. For instance: An engineer may target the "_an endpoint is compromised_" scenario by focusing on highly specific scenarios involving a certain attachment type, a vulnerable piece of software on the endpoint, or maybe a patch level. Others may contribute to the same scenario with other approaches, creating an engineering environment that values defense in depth. They may also approach the risk from [many different factors](https://medium.com/starting-up-security/the-five-factors-used-to-secure-systems-7f58be0f447f) depending on limitations.
+Downstream scenarios can become highly specific. For instance: An engineer may target the "_an endpoint is compromised_" scenario by focusing on highly specific scenarios involving a certain attachment type, a vulnerable piece of software on the endpoint, or maybe a patch level. Others may contribute to the _same scenario_ with _other approaches_, creating an engineering environment that values defense in depth. They may also approach the risk from [many different factors](https://medium.com/starting-up-security/the-five-factors-used-to-secure-systems-7f58be0f447f) depending on limitations.
+
+## Common scenario modifiers
+These are typical additions to help prioritize the most relevant scenarios. They are not typically scenarios themselves, but help focus mitigation efforts to the highest priority problems.
+
+Some scenarios are only important if they are capable of trigger an incident of a certain severity.
+
+> A *P0 incident* has involved...
+> A P0 incident has involved an employee who was not off-boarded correctly.
+> A P0 incident has resulted because an attacker bypassed rate limiting.
+
+Some bugs might not meet a specific "severity" classification but end up leveraged criminally anyways.
+
+> ...was exploited "*in the wild*"
+> An RCE discovered in our software was exploited "in the wild".
+> An exploit targeting the configuration of web server we host has been observed in the wild.
+
+The publicity involved with a scenario may be the goal of reduction efforts.
+
+> The *press has disclosed*...
+> An employee has leaked confidential data which the press has disclosed.
+> We have botched a vulnerability disclosure and the press has disclosed it before we could issue a fix.
+
+A time based scope is always included. Using consistent scopes or calendar based scopes improves everyone's ability to forecast comparable scenarios. "_Next Month_", "_Next Year_", "_Next Quarter_" are all typical.
+
+## IT Management Scenarios
+Scenarios that are typically of concern to an IT organization.
+
+- An employee's email has been accessed by an outsider.
+- We have opened an incident to deal with a vendor compromise.
+- Employee communications were compromised.
+- Internal documentation has been exposed to, and indexed by, a search engine.
+- Removable storage containing sensitive data has been lost.
+- An employee laptop has been stolen and was not encrypted.
+- A social engineer has received sensitive documents / data.
+- An employee was not off-boarded correctly.
+
+## Employee Scenarios
+Scenarios that involve a "bad employee".
+
+- An employee has decided to abuse their authorization.
+- An employee is violating the social media policy.
+- An employee is harming another employee.
+- An employee has decided to violate security policy.
+- An employee has harmed the organization with access retained after termination.
+
+## AWS Risks
+Scenarios typically involving cloud infrastructure.
+
+- An IAM secret key has exposed to the internet.
+- An S3 bucket has exposed to the internet.
+- Security groups and ACL's have exposed a high risk server.
+- An adversary has gained access to our AWS account.
+- CloudTrail logs have been deleted or modified.
+
+## Endpoint Risks
+Typical risks to desktops / laptops.
+
+- An adversary has implanted malware on an endpoint.
+- Endpoint malware is remotely beaconing to a C2.
+- An adversary has moved laterally in the environment.
+- An adversary has exploited unpatched software on an endpoint.
+- An adversary has elevated privilege on an endpoint.
+
+## Application Security Scenarios
+Risks involving a product or application being developed by an organization.
+
+- An adversary has remotely executed code through our application.
+- An adversary has bypassed our rate limiting capability.
+- An adversary has queried our database directly through our application.
+- An adversary has exploited an indirect object reference vulnerability.
+- An XSS vulnerability has been used against another user on our application.
+- A research finding has gone outside of our disclosure process.
+- Payment instruments are exposed to an adversary.
+- Credentials are exposed to an adversary.
+
+## Incident Response Scenarios
+Meta-Incidents created by poor incident handling.
+
+- An incident has sustained for more than two days.
+- We are unable to discover root cause in an incident.
+- We have not been able to comment publicly within our communications SLA.
+
+## Physical Security Scenarios
+Physical harm and physical loss.
+
+- A celebrity employee is harassed in person
+- An employee is involved in violence on company space (real estate or event)
+- Company property over $X has been lost.
+- An unauthorized individual has accessed our facility.
+- An executive is threatened while traveling.
+- An incident was not captured our cameras.
