@@ -1,5 +1,5 @@
 # Example scenarios for an organization 🤷
-The following are scenarios to support a simple approach to risk found [here](README.md)
+The following are scenarios to support a simple approach to risk found [here](README.md). This is not a checklist. This is a reference to assist someone crafting scenarios to model the risks they would like to measure. 
 
 > These can be modified as much as needed to make sense for a specific organization.
 
