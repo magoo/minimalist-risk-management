@@ -146,7 +146,7 @@ Right now you’re the only one who got anything from these interviews. You’ll
 
 The following are useful areas to organize your findings.
 
-#### 🔭Scenarios
+#### 🔭 Scenarios
 A scenario is a concrete way to articulate a risk. Scenarios are undesireable future events. The deliverable has a list. The following examples may help you author them.
 
 This scenario includes an *impact* 💥:
