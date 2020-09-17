@@ -119,12 +119,12 @@ Discover employees that may have overloaded capabilities if compromised. May als
 #### 📜 Best Practices
 Change perspectives and see if assumptions are being made about risks being low. Interviewees will often disagree on the state of best practices.
 
->  - Are there things that aren’t encrypted, but should be?
->  - Have you seen things that don’t authenticate like everything else?
->  - Are there roles or groups that have too much access?
->  - Do you expect to not be alerted about certain things?
->  - Have things gone on without a retrospective?
->  - Do other companies mitigate things better than us?
+- Are there things that aren’t encrypted, but should be?
+- Have you seen things that don’t authenticate like everything else?
+- Are there roles or groups that have too much access?
+- Do you expect to not be alerted about certain things?
+- Have things gone on without a retrospective?
+- Do other companies mitigate things better than us?
 
 #### 🐺 “In The Wild”
 This follows the theory that no incident should happen more than once. We should learn from the failures of others.
