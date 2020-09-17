@@ -1,4 +1,4 @@
-# Risk Discovery Interview Guidance
+# Discovering risks with interviews.
 
 We often have to ask experts for insight into subject matters that produce risk. This documents supports a _risk interview_, which often supports a _risk assessment_.
 
