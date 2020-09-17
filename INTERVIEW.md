@@ -17,7 +17,7 @@ Here's some tips to get us started.
 
 **🔨 Break the rules:** This document helps move a discussion along, but great interviews go off script and dive in.
 
-**📋 Capture notes:** Balance mindful conversation with notetaking. Allocate time afterwards to jot down your memory. Work with a partner if possible.
+**📋 Capture notes:** Balance conversation and notetaking. Work with a partner if possible.
 
 ---
 
