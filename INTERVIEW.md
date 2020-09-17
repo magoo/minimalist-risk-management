@@ -15,7 +15,7 @@ Here's some tips to get us started.
 
 **👂 Listen:** The more you're talking, the less you're listening.
 
-**🔨Break the rules:** This document helps move a discussion along, but great interviews go off script and dive in.
+**🔨 Break the rules:** This document helps move a discussion along, but great interviews go off script and dive in.
 
 **📋 Capture notes:** Balance mindful conversation with notetaking. Allocate time afterwards to jot down your memory. Work with a partner if possible.
 
