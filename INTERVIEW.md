@@ -132,7 +132,7 @@ This follows the theory that no incident should happen more than once. We should
 - Are there incidents you’ve seen that you worry about?
 - Have any incidents happened here?
 
-### ✍️ Take Notes
+### 4.  ✍️ Take Notes
 Notes are very personal and open-ended. This part does not need to be prescribed. If useful, I make the following collaborative spreadsheet.
 
 | Scenarios | Vulnerabilities | Impacts | Threat Actors | Follow Up Questions |
@@ -141,7 +141,7 @@ Notes are very personal and open-ended. This part does not need to be prescribed
 Notes go underneath in cells, often with the interviewee in edit mode as well.
 
 
-###  📖 Preparing Deliverables
+### 5.  📖 Preparing Deliverables
 Right now you’re the only one who got anything from these interviews. You’ll need to prepare some written analysis for others to make use of it.
 
 The following are useful areas to organize your findings.
