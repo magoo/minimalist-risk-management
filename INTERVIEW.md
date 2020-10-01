@@ -86,7 +86,7 @@ Describe circumstances or configurations that may attract a threat or exacerbate
 - What kind of “biggies” have been found in the past?
 - Do people ever complain that something isn’t quite locked down?
 - What sorts of bugs get a huge payout?
-- Are th- ere any surprisingly old dependencies?
+- Are there any surprisingly old dependencies?
 - What bugs take the longest to see a fix?
 
 
