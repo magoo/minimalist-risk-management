@@ -2,7 +2,13 @@
 
 We often have to ask experts for insight into subject matters that produce risk. This documents supports a _risk interview_, which often supports a _risk assessment_.
 
-The **objective** is to effectively draw upon expert knowledge to discover plausible risk scenarios that require mitigation by our larger security organization.
+The **objective** is to effectively draw upon expert knowledge to discover plausible risk scenarios that require mitigation by our larger security organization. With many organizations moving towards a Zero-Trust Strategy. It's important to gleen insight into the following areas in the impact portion your interview:
+
+- [ ] 1. What data is critical to your department
+- [ ] 2. Which applications are used daily, weekly, and monthly?
+- [ ] 3. Where are the companies critical assets running? (AWS, Azure, GCP)
+- [ ] 4. What are the services which support our daily operations?
+- [ ] 5. Organize the notes visualize a threat model or to gain understanding of possible risks
 
 The **key result** is written analysis and the production of *scenarios* that guide mitigation efforts.
 
