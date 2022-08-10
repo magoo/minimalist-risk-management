@@ -12,9 +12,13 @@ Involve your leadership and sponsors. Discuss scope of risks you want to be conc
 
 ## :mag: Kick off an effort to discover risks
 
-Begin planning and executing efforts to [discover risk](https://medium.com/@magoo/starting-up-security-from-scratch-6f9a41199a65). These can be interviews with internal subject matter experts. These can be brainstorming workshops with employee groups. External auditors or tool produced reports can also contribute to risk discovery. Limit your costs and efforts to a reasonable value that allows resource to mitigate future findings. Avoid bias from a single individual's perception of risk.
+Begin planning and executing efforts to [discover risk](https://medium.com/@magoo/starting-up-security-from-scratch-6f9a41199a65). Balance your resources so your discovery efforts don't take away from mitigation.
 
+- [🗣 Interviews](INTERVIEW.md)
 - [🤔 Scenarios](SCENARIOS.md)
+- 💼 External Auditors
+- ⚒️ Tool assisted audits
+- 🗺 Infrastructure diagrams
 
 > The output of this effort creates an unsorted list of "[scenarios](https://medium.com/starting-up-security/decomposing-security-risk-into-scenarios-7ecf0979be01)" that are translated from these various efforts.
 
