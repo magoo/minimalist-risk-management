@@ -6,7 +6,7 @@ Minimalist documentation to describe a simple risk management program. [@magoo](
 
 Involve your leadership and sponsors. Discuss scope of risks you want to be concerned about (Physical? Financial? Technical? Natural?). Discuss budget, partner collaboration, and urgency. Discuss preferences for any methods to discover risk. Identify decision makers and stakeholders for actions on findings.
 
-- [🗓 Meetings](MEETINGS.md).
+- [🗓 Meetings](MEETINGS.md)
 
 > The output of this effort should allow collaboration with other teams to start with confidence.
 
